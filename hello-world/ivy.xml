@@ -26,7 +26,7 @@
 	version.
 	-->	
     <dependencies defaultconf="compile">
-	      <dependency conf="compile->default" org="edu.depaul.cdm.se441" name="hello-world" rev="1.0-SNAPSHOT"/>
-	    <dependency conf="test->default" org="edu.depaul.cdm.se441" name="hello-world" rev="1.0-SNAPSHOT"/>
+	      <dependency conf="compile->default" org="bao-time" name="bao-time" rev="2.9.2"/>
+	    <dependency conf="test->default" org="bao-time" name="bao-time" rev="2.9.2"/>
      </dependencies>
 </ivy-module>
