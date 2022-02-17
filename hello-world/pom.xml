@@ -7,10 +7,10 @@
 	should be 'jar'.
 	-->
 	<groupId>edu.depaul.cdm.se441</groupId>
-	<artifactId>hello-world</artifactId>
+	<artifactId>hello-world-bao</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>SE441 Hello World</name>
+	<name>SE441 Hello World Bao</name>
 	
     <properties>
 	  <maven.compiler.source>17</maven.compiler.source>
@@ -26,15 +26,15 @@
 	-->
 	<dependencies> 
 		<dependency> 
-			<groupId>edu.depaul.cdm.se441</groupId>
-			<artifactId>hello-world</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<groupId>bao-time</groupId>
+			<artifactId>bao-time</artifactId>
+			<version>2.9.2</version>
 			<scope>compile</scope>
 		</dependency> 
 		<dependency> 
-			<groupId>edu.depaul.cdm.se441</groupId>
-			<artifactId>hello-world</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<groupId>bao-time</groupId>
+			<artifactId>bao-time</artifactId>
+			<version>2.9.2</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
