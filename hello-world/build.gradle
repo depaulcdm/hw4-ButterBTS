@@ -14,3 +14,24 @@ similar to the one shown in class.
 Remember to use the 'java' plugin. You can reference the
 Maven Central repository.
 */
+
+apply plugin: 'java' 
+
+repositories { 
+  mavenCentral()
+  } 
+
+dependencies{
+    implementation 'bao-time:bao-time:2.9.2' 
+   } 
+
+jar {
+   baseName = project.name +'-all'
+   from { 
+     configuration.runtimeClasspath.findAll {it.name.endsWith('jar') 
+        }.collect { zipTree(it) } 
+} 
+manifest { 
+   attributes 'Main-Class': 'hello.HelloWorld'
+  }
+ }
