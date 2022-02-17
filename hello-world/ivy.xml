@@ -26,6 +26,10 @@
 	version.
 	-->	
     <dependencies defaultconf="compile">
-	      <dependency conf="compile->default" org="
-    </dependencies>
+	      <dependency conf="compile->default" org="edu.depaul.cdm.se441" name="hello-world" rev="1.0-SNAPSHOT"/>
+     </dependencies>
+	
+	<dependencies defaultconf ="test">
+		 <dependency conf="test->default" org="edu.depaul.cdm.se441" name="hello-world" rev="1.0-SNAPSHOT"/>
+	</dependencies> 
 </ivy-module>
