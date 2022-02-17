@@ -21,11 +21,15 @@
 	  TODO:
 	  Perform an Ivy retrieve using a pathid of 'compile.classpath' and a pattern of
 	  '${ivy.lib.dir}/[conf]/[artifact].[ext]'.
+            
 	  
 	  Create two cachefilesets: one for the 'compile' configuration and another for 
 	  the 'test' configuration. The ID of the first cachefileset should be 'compile.classpath'
 	  and the ID of the second should be 'test.classpath'.
 	  -->
+	    <ivy:retrieve pattern="${ivy.lib.dir}/[conf]/[artifact].[ext]"/> 
+	    <ivy:retrieve pathid="compile.classpath"/>
+	    
     </target>
 	
 	<!--
