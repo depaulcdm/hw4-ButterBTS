@@ -1,5 +1,5 @@
 # Instructions
-**TODO:** Replace this line with your name and student ID.
+Zhilong Zhou   2029240
 
 **TODO:** Add your screen captures to a new directory called [images](images).
 
