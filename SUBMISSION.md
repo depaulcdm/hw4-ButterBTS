@@ -11,7 +11,7 @@ Zhilong Zhou   2029240
 - [15 pts] A screen capture showing a successful build using the Ant+Ivy script.
  ![AntIvy Build](images/AntIvy-build.png)    
 - [5 pts] A screen capture showing a successful execution of the JAR file created from the Ant+Ivy build.
-- [10 pts] Links to the complete and correct [hello-world/build.xml](hello-world/build.xml) and [hello-world/ivy.xml](hello-world/ivy.xml) files.
+- [10 pts] Links to files: [hello-world/build.xml](hello-world/build.xml) and [hello-world/ivy.xml](hello-world/ivy.xml) 
 
 # Maven [30 pts]
 - [5 pts] A screen capture showing the version of Maven that you installed and its install directory.
@@ -19,11 +19,11 @@ Zhilong Zhou   2029240
 - [10 pts] A screen capture showing a successful build using the Maven script.
  ![Maven Build](images/Maven-build.png)
 - [5 pts] A screen capture showing a successful execution of the JAR file created from the Maven build.
-- [10 pts] Links to the complete and correct [hello-world/pom.xml](hello-world/pom.xml) file.
+- [10 pts] Links to files: [hello-world/pom.xml](hello-world/pom.xml)
 
 # Gradle [30 pts]
 - [5 pts]A screen capture showing the version of Gradle that you installed and its install directory.
   ![Gradle Version](images/Version-Gradle.png)
 - [10 pts] A screen capture showing a successful build using the Gradle script.
 - [5 pts] A screen capture showing a successful execution of the JAR file created from the Gradle build.
-- [10 pts] Links to the complete and correct [hello-world/build.gradle](hello-world/build.gradle) file.
+- [10 pts] Links to files: [hello-world/build.gradle](hello-world/build.gradle) 
